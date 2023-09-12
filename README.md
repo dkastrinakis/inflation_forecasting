@@ -1,7 +1,7 @@
 # inflation_forecasting
 Inflation forecating in Greece: A comparison between ARIMA, XGBoost and LSTM.
 
-##Abstract
+## Abstract
 
 Inflation has been plaguing societies since the ancient times, at occasions leading to complete market instability and significantly dropping the living standards of people in societies. In less severe scenarios, inflation adds uncertainty to investment decisions and shortens the investment horizon in emerging markets, making the generation of accurate inflation forecasting models imperative.
 This paper seeks to compare three different widely used approaches in the domain of macroeconomic forecasting in determining which one of those approaches shows more promising results for short term inflation prediction. More specifically, the first method that is employed to forecast inflation is ARIMA, an extensively used, traditional, time series forecasting approach that focuses solely on past CPI values to generate predictions. Moreover, an LSTM Artificial Neural Network has been designed to forecast inflation, as a contemporary deep learning approach often used for regression tasks and time series forecasting. Finally, XGBoost, an ensemble algorithm that combines simple decision trees (base learners) is the third model that has been generated, which is the proposed method for inflation forecasting in this research project. All three methods are compared to a persistence model, which constitutes a challenging baseline to surpass in terms of its forecasting performance.
